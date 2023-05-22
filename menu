@@ -1,0 +1,20 @@
+#------------------------------------------------------------------------
+# icewm menu file
+# Settings menu options by Mizu.Taifux
+# 2023
+#------------------------------------------------------------------------
+#
+# Usage for new options
+#
+# prog "Program Name" path/imagefile.png programname
+#
+# Separator menu options
+#
+# separator
+#
+#------------------------------------------------------------------------
+prog "Terminal" "" urxvt
+prog "Navegador" "" firefox
+prog "Arquivos" "" pcmanfm
+separator
+menuprog "Programas" folder icewm-menu-fdo

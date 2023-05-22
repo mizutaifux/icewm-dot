@@ -1,0 +1,19 @@
+#---------------------------------------------------------
+# Icewm - Key file
+# Custom settings by Mizu.Taifux
+# 2023
+#---------------------------------------------------------
+key "Alt+Ctrl+t" urxvt
+key "Alt+Ctrl+b" firefox
+key "Super+r" rofi -show run
+key "Print" scrot
+#---------------------------------------------------------
+key "Ctrl+Alt+Home"  icesh -f sizeto 49% 49% top left
+key "Ctrl+Alt+Up"    icesh -f sizeto 100% 50% top left
+key "Ctrl+Alt+Prior" icesh -f sizeto 49% 49% top right
+key "Ctrl+Alt+Right" icesh -f sizeto 49% 100% top right
+key "Ctrl+Alt+Next"  icesh -f sizeto 49% 49% bottom right
+key "Ctrl+Alt+Down"  icesh -f sizeto 100% 49% bottom left
+key "Ctrl+Alt+End"   icesh -f sizeto 49% 49% bottom left
+key "Ctrl+Alt+Left"  icesh -f sizeto 50% 100% top left
+key "Ctrl+Alt+c" icesh -f sizeto 96% 96% center
